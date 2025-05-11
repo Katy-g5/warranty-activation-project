@@ -48,5 +48,5 @@
     "typescript": "~5.8.3"
   },
   "private": true,
-  "packageManager": "npm@10.5.0"
+  "packageManager": "yarn@1.22.22"
 }
