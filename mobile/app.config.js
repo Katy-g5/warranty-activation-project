@@ -35,9 +35,15 @@ export default {
       // Add the environment variables here
       API_URL: process.env.API_URL || env?.parsed?.API_URL,
       ENVIRONMENT: process.env.ENVIRONMENT || env?.parsed?.ENVIRONMENT,
-      "eas": {
-        "projectId": "6374e342-f494-4413-880f-1841b42b892f"
+      eas: {
+        projectId: "6374e342-f494-4413-880f-1841b42b892f"
       }
+    },
+    updates: {
+      url: "https://u.expo.dev/6374e342-f494-4413-880f-1841b42b892f"
+    },
+    runtimeVersion: {
+      policy: "appVersion"
     }
   }
 }; 
