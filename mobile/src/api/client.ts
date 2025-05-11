@@ -5,8 +5,9 @@ import { createLogger } from '../utils/logger';
 // Create logger for API
 const logger = createLogger('API');
 
+const API_URL = process.env.API_URL;
 const client = axios.create({
-  baseURL: 'http://10.0.0.8:3000/api'
+  baseURL: API_URL
 });
 
 // Add a request interceptor to attach auth token
