@@ -20,13 +20,15 @@ export default {
       "**/*"
     ],
     ios: {
-      supportsTablet: true
+      supportsTablet: true,
+      bundleIdentifier: 'com.katym87tech.warrantyactivation',
     },
     android: {
       adaptiveIcon: {
         foregroundImage: "./assets/adaptive-icon.png",
         backgroundColor: "#ffffff"
-      }
+      },
+      package: 'com.katym87tech.warrantyactivation',
     },
     web: {
       favicon: "./assets/favicon.png"

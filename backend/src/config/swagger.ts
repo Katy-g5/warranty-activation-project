@@ -26,6 +26,10 @@ try {
           url: `http://localhost:${env.port}/api`,
           description: 'Development server',
         },
+        {
+          url: `https://backend-1qyd.onrender.com/api`,
+          description: 'Production server',
+        },
       ],
       components: {
         securitySchemes: {
