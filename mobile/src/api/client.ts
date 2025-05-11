@@ -1,18 +1,11 @@
 import axios, { InternalAxiosRequestConfig, AxiosResponse, AxiosError } from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { env } from '../config/env';
 import { createLogger } from '../utils/logger';
 
 // Create logger for API
 const logger = createLogger('API');
 
-// Use the API_URL from environment variables
-const API_URL = `${env.API_URL}/api`;
-
-logger.info('Initializing API client with base URL:', API_URL);
-
 const client = axios.create({
-  // baseURL: API_URL
   baseURL: 'http://10.0.0.8:3000/api'
 });
 

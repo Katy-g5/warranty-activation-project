@@ -44,7 +44,7 @@ The AC Warranty Mobile App is a React Native application that allows installers 
 
 3. Configure the API endpoint:
    - Open `src/api/client.ts` and set the `API_URL` to match your backend server
-   - By default, it connects to `http://localhost:3000/api`
+   - By default, it connects to `http://10.0.0.8:3000/api`
 
 4. Start the application:
    ```bash

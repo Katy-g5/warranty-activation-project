@@ -39,7 +39,7 @@ npm install
 3. Configure the API URL:
 Create a `.env` file in the root directory and add:
 ```
-VITE_API_URL=http://localhost:8080/api
+VITE_API_URL=http://localhost:3000/api
 PORT=5173
 ```
 

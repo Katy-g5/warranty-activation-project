@@ -42,6 +42,7 @@ VERYFI_CLIENT_ID=[your_veryfi_client_id]
 VERYFI_CLIENT_SECRET=[your_veryfi_client_secret]
 VERYFI_USERNAME=[your_veryfi_username]
 VERYFI_API_KEY=[your_veryfi_api_key]
+(Available after registration here: https://app.veryfi.com/)
 
 # Warranty date window (days)
 WARRANTY_DATE_WINDOW=21
